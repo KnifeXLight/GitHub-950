@@ -1,0 +1,194 @@
+body {
+    font-family: monospace;
+}
+
+.sidenav {
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, rgb(90, 202, 206), rgb(255, 255, 255));
+    overflow-x: hidden;
+    padding-top: 15px;
+    text-align: center;
+    border-right: 2px solid black;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.sidenav a:hover {
+    font-weight: bold;
+    color: #b33232;
+}
+
+.link {
+    font-size: large;
+}
+
+.main {
+    margin-left: 30%;
+    font-size: 28px;
+    padding: 0px 25px;
+}
+
+.main a:hover {
+    font-weight: bold;
+    color: #b33232;
+}
+
+.profile {
+    border-radius: 70%;
+    border: 3px solid black;
+
+}
+
+.button {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgb(117, 235, 229);
+    color: black;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px 1px black;
+}
+
+.button:hover {
+    background-color: rgb(80, 204, 253);
+}
+
+aside {
+    margin-left: 1px;
+    margin-right: 5px;
+    float: left;
+}
+
+aside>p {
+    margin: 1rem;
+}
+
+.as2 {
+    width: 250px;
+    padding-left: 0%;
+    margin-left: 5%;
+    float: right;
+    font-size: medium;
+
+}
+
+.as2>p {
+    margin: 0.5rem;
+}
+
+div.gallery{
+    margin: 15px;
+    float: left;
+    justify-content: center;
+    width: 30vw;
+}
+
+.cos {
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0px black;
+    display:block;
+    margin:auto;
+    width:100%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+input {
+    border: 3px solid black;
+    padding: 7px;
+    border-radius: 10px;
+    text-align:center;
+    font-size:medium;
+    font-family:monospace;
+}
+input[type=text]{
+    width: calc(100% - 44px);
+    margin: 5px 0 22px 0;
+}
+input[type=tel],input[type=email]{
+    margin: 5px 0 15px 0;
+    width: calc(100% - 30px)
+}
+
+
+
+@media screen and (min-width: 670px){
+    input[type=text]{
+        width:40%
+    }
+}
+
+@media screen and (max-width: 600px){
+    .cos{
+        width:90%;
+    }
+}
+@media screen and (max-height: 600px){
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 55px;
+    }
+}
+
+
+/*Fonts*/
+
+#tophead {
+    font-size: x-large;
+}
+
+#subhead {
+    font-size: large;
+}
+
+#subsubhead {
+    font-size: large;
+    padding-left: 70px;
+}
+
+#edinfo {
+    font-size: medium
+}
+
+#bodyinfo {
+    font-size: medium;
+    margin-left: 35px;
+}
+
+#contactform {
+    text-align:center;
+    background-color:rgb(219, 219, 219);
+    box-shadow: 5px 5px 15px 5px rgb(68, 68, 68);
+    border-radius:15px;
+    width:70%;
+    margin: 0 auto;
+}
